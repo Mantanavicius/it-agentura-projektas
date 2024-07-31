@@ -17,6 +17,9 @@
   padding-bottom: 101px;
   border-bottom: 1px solid rgba(244, 244, 244, 0.4);
   margin-bottom: 29px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 51px;
 }
 .footer-wrapper .top > div {
   gap: 24px;
@@ -32,6 +35,9 @@
 }
 .footer-wrapper .apie p {
   max-width: 357px;
+}
+.prenumeruoti {
+  gap: 19px;
 }
 .footer-wrapper .prenumeruoti .input-container {
   position: relative;
@@ -57,17 +63,18 @@
   line-height: 24px;
   padding: 12px 16px;
 }
-.footer-wrapper .bot h5{
-    margin-bottom: 16px;
+.footer-wrapper .bot h5 {
+  margin-bottom: 16px;
+  flex-wrap: wrap;
 }
-.footer-wrapper .bot p, 
+.footer-wrapper .bot p,
 .footer-wrapper .bot a {
-    font-size: 16px;
-    line-height: 21px;
+  font-size: 16px;
+  line-height: 21px;
 }
 .footer-wrapper .socials {
-    display: flex;
-    flex-direction: row;
-    gap: 29px;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+  align-items: center;
 }

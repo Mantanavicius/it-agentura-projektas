@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="dark">
       <div className="footer-wrapper container column">
         <div className="top">
-          <div className="apie">
+          <div className="apie column">
             <img
               src="src/assets/logo.svg"
               alt="logo"
@@ -16,7 +16,7 @@ const Footer = () => {
               siekiant meistriškumo ir pilnatvės.
             </p>
           </div>
-          <div className="puslapiai">
+          <div className="puslapiai column">
             <h5>Puslapiai</h5>
             <ul>
               <li>
@@ -33,7 +33,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="strapsniai">
+          <div className="strapsniai column">
             <h5>Strapsniai</h5>
             <ul>
               <li>
@@ -56,7 +56,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="prenumeruoti">
+          <div className="prenumeruoti column">
             <h5>Prenumeruokite naujienas</h5>
             <div className="input-container">
               <input

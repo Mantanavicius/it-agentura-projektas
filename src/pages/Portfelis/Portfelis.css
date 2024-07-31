@@ -1,14 +1,16 @@
-.portfelis .container{
+.portfelis {
+  .container {
     margin-bottom: 100px;
-}
-.portfelis .darbai-wrapper{
+  }
+  .darbai {
     margin-top: 142px;
     margin-bottom: 117px;
-}
-.portfelis .hero-text{
+  }
+  .hero-text {
     margin-top: 66px;
     height: 350px;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+  }
 }

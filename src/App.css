@@ -154,3 +154,26 @@ h6 {
     height: 47px;
   }
 }
+.darbai {
+  gap: 72px;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+}
+.darbai-left,
+.darbai-right {
+  gap: 74px;
+}
+.darbas {
+  h4 {
+    margin: 24px 0 10px;
+  }
+}
+.darbas.linked {
+  position: relative;
+}
+.darbas.linked a {
+  position: absolute;
+  transform: translateX(-50%);
+  top: 40%;
+  left: 50%;
+}

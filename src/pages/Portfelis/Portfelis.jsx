@@ -9,8 +9,8 @@ const Portfelis = () => {
           <div className="hero-text dark flex">
             <h2>Mūsų Portfelis</h2>
           </div>
-          <div className="darbai-wrapper">
-            <div className="darbai-left">
+          <div className="darbai flex">
+            <div className="darbai-left column">
               <div className="darbas">
                 <img
                   src="src/assets/d1.png"
@@ -36,9 +36,9 @@ const Portfelis = () => {
                 <p>Grafinis dizainas</p>
               </div>
             </div>
-            <div className="darbai-right">
+            <div className="darbai-right column">
               <div className="darbas linked">
-                <NavLink to='debesu-sprendimas'>
+                <NavLink to="debesu-sprendimas">
                   <img
                     src="src/assets/arrow.svg"
                     alt="arrow"

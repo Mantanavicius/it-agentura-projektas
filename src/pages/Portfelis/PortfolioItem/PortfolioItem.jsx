@@ -113,7 +113,7 @@ const PortfolioItem = () => {
                 <p>Kūrybinis vartotojo sąsajos dizainas</p>
               </div>
               <div className="darbas linked">
-                <NavLink to="/debesu-sprendimas">
+                <NavLink to="/portfelis">
                   <img
                     src="../src/assets/arrow.svg"
                     alt="arrow"

@@ -4,56 +4,64 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
-      <section className="hero dark">
-        <div className="container column">
-          <img
-            src="src/assets/hero-deco.png"
-            alt="deco"
-            id="hero-deco"
-          />
-          <div className="hero-text">
-            <h2>
-              Pasiruošę pakelti <span className="ot">savo verslo augimą</span> į
-              kitą lygį?
-            </h2>
-            <p>
-              Išbandykite nemokamą bandomąją versiją ir keliaukite į naują
-              verslo lygį kartu su mumis!
-            </p>
-            <button className="btn-long">
-              <div className="deco"></div>
-              Išbandykite nemokamai
-            </button>
+      <section className="hero-wrapper dark">
+        <img
+          src="src/assets/hero-deco.png"
+          alt="deco"
+          id="hero-deco"
+        />
+        <div className="container">
+          <div className="left column">
+            <div className="hero-text">
+              <h2>
+                Pasiruošę pakelti <span className="ot">savo verslo augimą</span>{" "}
+                į kitą lygį?
+              </h2>
+              <p>
+                Išbandykite nemokamą bandomąją versiją ir keliaukite į naują
+                verslo lygį kartu su mumis!
+              </p>
+              <button className="btn-long">
+                <div className="deco"></div>
+                Išbandykite nemokamai
+              </button>
+            </div>
+            <div className="pasitiki column ot">
+              <h5>Mumis pasitiki pirmaujantys prekės ženklai</h5>
+              <div className="brands flex">
+                <img
+                  src="src/assets/client1.svg"
+                  alt="Mindfulness"
+                />
+                <img
+                  src="src/assets/client2.svg"
+                  alt="Leafe"
+                />
+                <img
+                  src="src/assets/client3.svg"
+                  alt="Automation"
+                />
+                <img
+                  src="src/assets/client4.svg"
+                  alt="Greenish"
+                />
+              </div>
+            </div>
           </div>
-          <div className="pasitiki column ot">
-            <h5>Mumis pasitiki pirmaujantys prekės ženklai</h5>
-            <div className="brands flex">
-              <img
-                src="src/assets/client1.svg"
-                alt="Mindfulness"
-              />
-              <img
-                src="src/assets/client2.svg"
-                alt="Leafe"
-              />
-              <img
-                src="src/assets/client3.svg"
-                alt="Automation"
-              />
-              <img
-                src="src/assets/client4.svg"
-                alt="Greenish"
-              />
+          <div className="elipsis-photo flex">
+            <div className="outer">
+              <div className="inner">
+                <img
+                  src="src/assets/hero-elipsis.jpg"
+                  alt="office"
+                />
+              </div>
+              <div className="overlay-gradient"></div>
             </div>
           </div>
         </div>
-        <img
-          src="src/assets/elipsis-photo.svg"
-          alt="elipsis office photo"
-          id="hero-elipsis"
-        />
       </section>
-      <section className="paslaugos light">
+      <section className="paslaugos-wrapper light">
         <div className="container column">
           <h4 className="ot">Mūsų Paslaugos</h4>
           <h2>Paslaugos, kurios turės didelį poveikį jūsų verslui</h2>
@@ -132,7 +140,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="apie-mus dark">
+      <section className="apie-mus-wrapper dark">
         <div className="container">
           <div className="images">
             <img
@@ -253,11 +261,11 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="darbai light">
+      <section className="darbai-wrapper light">
         <div className="container column">
           <h2>Naujausi darbai</h2>
-          <div className="darbai-wrapper">
-            <div className="darbai-left">
+          <div className="darbai flex">
+            <div className="darbai-left column">
               <div className="darbas">
                 <img
                   src="src/assets/d1.png"
@@ -275,7 +283,7 @@ const Home = () => {
                 <p>Kūrybinis logotipo atnaujinimas</p>
               </div>
             </div>
-            <div className="darbai-right">
+            <div className="darbai-right column">
               <button className="btn-long dark">
                 <div className="deco"></div>
                 Išbandykite nemokamai
@@ -307,7 +315,7 @@ const Home = () => {
         </div>
       </section>
       <section className="testimonies">
-        <div className="container">
+        <div className="container column">
           <div className="user">
             <img
               src="src/assets/user.jpg"
@@ -321,8 +329,8 @@ const Home = () => {
             pageidavimus paliko teigiamą įspūdį. ”
           </h6>
           <h5>Laima Varnaitė</h5>
-          <p>Kūrybinė vadybininkė, UAB Kreatyva</p>
-          <div className="slider-controls">
+          <p className="p-small">Kūrybinė vadybininkė, UAB Kreatyva</p>
+          <div className="slider-controls flex">
             <img
               src="src/assets/left.svg"
               alt="arrow left"
