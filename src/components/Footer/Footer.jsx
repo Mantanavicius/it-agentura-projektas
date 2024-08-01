@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="dark">
       <div className="footer-wrapper container column">
-        <div className="top">
+        <div className="top flex">
           <div className="apie column">
             <img
               src="src/assets/logo.svg"
@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <div className="puslapiai column">
             <h5>Puslapiai</h5>
-            <ul>
+            <ul className="column p-small">
               <li>
                 <NavLink to="/">Pagrindinis</NavLink>
               </li>
@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
           <div className="strapsniai column">
             <h5>Strapsniai</h5>
-            <ul>
+            <ul className="column p-small">
               <li>
                 <a href="">Stiliaus gidas kas tai?</a>
               </li>
@@ -68,23 +68,42 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bot">
+        <div className="bot flex">
           <div className="teises">
             <h5>Autoriaus teisės priklauso</h5>
-            <p>Dizainas: VCS+IV</p>
+            <p className="p-small">Dizainas: VCS+IV</p>
           </div>
           <div className="susisiekite">
             <h5>Susisiekite</h5>
-            <a href="tel:+37012345745">+370 123 45 745</a>
+            <a
+              href="tel:+37012345745"
+              className="p-small">
+              +370 123 45 745
+            </a>
           </div>
           <div className="adresas">
             <h5>Adresas</h5>
-            <p>Vytauto gatvė 10A, Kaunas</p>
+            <p className="p-small">Vytauto gatvė 10A, Kaunas</p>
           </div>
-          <div className="socials">
-            <a href=""><img src="src/assets/fb.svg" alt="facebook" /></a>
-            <a href=""><img src="src/assets/insta.svg" alt="instagram" /></a>
-            <a href=""><img src="src/assets/linkedin.svg" alt="LinkedIn" /></a>
+          <div className="socials flex">
+            <a href="">
+              <img
+                src="src/assets/fb.svg"
+                alt="facebook"
+              />
+            </a>
+            <a href="">
+              <img
+                src="src/assets/insta.svg"
+                alt="instagram"
+              />
+            </a>
+            <a href="">
+              <img
+                src="src/assets/linkedin.svg"
+                alt="LinkedIn"
+              />
+            </a>
           </div>
         </div>
       </div>
