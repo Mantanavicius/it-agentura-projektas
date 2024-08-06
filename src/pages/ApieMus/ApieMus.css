@@ -1,67 +1,70 @@
-.first .container {
-  align-items: center;
-  margin-top: 60px;
-}
+.first {
+  .container {
+    align-items: center;
+    margin-top: 60px;
 
-.first .container .top {
-  height: 706px;
-  border-radius: 20px;
-  padding: 92px 72px;
-  gap: 41px;
-  margin-bottom: 167px;
-}
+    .top {
+      border-radius: 20px;
+      padding: 92px 0 0 72px;
+      gap: 41px;
+      margin-bottom: 167px;
+      flex-wrap: wrap;
 
-.first .container .top .text {
-  max-width: 566px;
-}
-.first h2 {
-  margin-top: 8px;
-  margin-bottom: 24px;
-}
-.first .rating-block {
-  margin-top: 40px;
-  align-items: center;
-  gap: 12px;
-}
-.first .rating-block h5 {
-  margin-bottom: 2px;
-}
-.first .pics {
-  position: relative;
-  width: 721px;
-}
-.first .pics img {
-  position: absolute;
-}
-.first .pics img:nth-of-type(1) {
-  top: 0;
-  left: 0;
-}
-.first .pics img:nth-of-type(2) {
-  top: 34px;
-  left: 81px;
-}
-.first .pics img:nth-of-type(3) {
-  top: 66px;
-  left: 153px;
-}
+      .text {
+        max-width: 566px;
+        margin-bottom: 178px;
+      }
 
-.first .stats {
-  gap: 66px;
-  text-align: center;
-  margin-bottom: 107px;
-}
-.first .stats h3 {
-  font-size: 45px;
-  line-height: 52.7px;
-}
-.first .stats h6 {
-  font-size: 25px;
-  line-height: 29.28px;
-  margin: 16px 0;
-}
-.first .stats p {
-  max-width: 383px;
+      h2 {
+        margin-top: 8px;
+        margin-bottom: 24px;
+      }
+
+      .rating-block {
+        margin-top: 40px;
+        align-items: center;
+        gap: 12px;
+      }
+
+      h5 {
+        margin-bottom: 2px;
+      }
+
+      .pics {
+        position: relative;
+        width: 721px;
+
+        img {
+          position: absolute;
+
+          &:nth-of-type(1) {
+            top: 0;
+            left: 0;
+          }
+          &:nth-of-type(2) {
+            top: 34px;
+            left: 81px;
+          }
+          &:nth-of-type(3) {
+            top: 66px;
+            left: 153px;
+          }
+        }
+      }
+    }
+    .stats {
+      gap: 66px;
+      text-align: center;
+      margin-bottom: 107px;
+
+      h6 {
+        margin: 16px 0;
+      }
+      p {
+        max-width: 383px;
+      }
+    }
+  }
 }
 .second .container {
   padding-top: 100px;
